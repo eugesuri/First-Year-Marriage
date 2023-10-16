@@ -70,6 +70,10 @@ header a {
   background: white;
 }
 
+a:hover {
+  color: pink;
+}
+
 @media (max-width: 900px) {
   header {
     padding: 60px 0;
