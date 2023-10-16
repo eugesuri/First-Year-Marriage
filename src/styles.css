@@ -3,7 +3,7 @@ body {
   font-family: "Montserrat", sans-serif;
   font-family: "Playfair Display", serif;
   font-family: "Poppins", sans-serif;
-  background: #272044;
+  background: lightblue;
 }
 
 .container {
@@ -40,7 +40,7 @@ footer {
 
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
-    url("../images/buenosaires.jpg");
+    url("../images/weddingday.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
