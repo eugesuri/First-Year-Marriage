@@ -3,7 +3,7 @@ body {
   font-family: "Montserrat", sans-serif;
   font-family: "Playfair Display", serif;
   font-family: "Poppins", sans-serif;
-  background: lightgoldenrodyellow;
+  background: black;
 }
 
 .container {
@@ -48,6 +48,10 @@ header {
   padding: 200px 0;
 }
 
+.img-responsive {
+  max-width: 100%;
+  border-radius: 10px;
+}
 .link {
   color: white;
   text-decoration: none;
@@ -55,6 +59,10 @@ header {
 .link:hover {
   color: pink;
 }
+.grid-2-columns {
+  grid-template-columns: 1fr 1fr;
+}
+
 header a {
   font-weight: 700;
   font-size: 14px;
@@ -70,8 +78,24 @@ header a {
   background: white;
 }
 
+main h3 {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 1.5;
+  color: white;
+  margin: 0;
+  font-family: "Lora", serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Playfair Display", serif;
+  font-family: "Poppins", sans-serif;
+}
+
 a:hover {
   color: pink;
+}
+
+p {
+  color: white;
 }
 
 @media (max-width: 900px) {
@@ -90,4 +114,13 @@ a:hover {
   header h3 {
     font-size: 12px;
   }
+}
+.grid {
+  grid-template-columns: 1fr 2fr 2fr;
+
+  grid-gap: 32px;
+}
+
+section {
+  padding: 30px;
 }
