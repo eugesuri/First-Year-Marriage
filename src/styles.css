@@ -152,16 +152,7 @@ header {
   text-align: center;
 }
 section.secondary {
-  background-image: linear-gradient(
-    200deg,
-    lightpink,
-    white,
-    lightgreen,
-    lightpink,
-    lightblue,
-    lightpink,
-    lightblue
-  );
+  background-image: linear-gradient(200deg, lightyellow, black);
   text-align: center;
 }
 
