@@ -92,7 +92,7 @@ footer {
 
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
-    url("../images/weddingday.jpg");
+    url("../images/WEDDING.JPG");
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
@@ -122,7 +122,7 @@ header {
   grid-template-columns: 1fr 1fr 1fr;
 }
 .grid-3-columns {
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 2fr 2fr 2fr;
 }
 .card {
   background: white;
