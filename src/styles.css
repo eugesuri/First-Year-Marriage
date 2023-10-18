@@ -6,9 +6,33 @@ body {
   background: black;
 }
 
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-family: "Lora", serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Playfair Display", serif;
+}
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-family: "Lora", serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Playfair Display", serif;
+}
+h3 {
+  font-family: "Poppins", sans-serif;
+  font-family: "Lora", serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Playfair Display", serif;
+}
 .container {
   max-width: 1400px;
   margin: 0 auto;
+}
+a {
+  font-family: "Poppins", sans-serif;
+  font-family: "Lora", serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Playfair Display", serif;
 }
 
 header h1 {
@@ -33,9 +57,37 @@ header h3 {
   margin: 0;
 }
 
+section h2 {
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-family: "Lora", serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Playfair Display", serif;
+}
+section p {
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-family: "Lora", serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Playfair Display", serif;
+}
 footer {
   text-align: center;
   color: white;
+}
+
+.btn-light {
+  background-color: pink;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  margin-left: 40px;
+  font-family: "Poppins", sans-serif;
+  font-family: "Lora", serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Playfair Display", serif;
 }
 
 header {
@@ -49,8 +101,12 @@ header {
 }
 
 .img-responsive {
-  max-width: 100%;
+  max-width: 26%;
   border-radius: 10px;
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  margin-left: 40px;
 }
 .link {
   color: white;
@@ -60,9 +116,27 @@ header {
   color: pink;
 }
 .grid-2-columns {
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.grid-3-columns-with-first-narrow {
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
+section.secondary {
+  background-image: linear-gradient(
+    180deg,
+    lightpink,
+    white,
+    lightblue,
+    lightpink,
+    lightblue
+  );
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
 header a {
   font-weight: 700;
   font-size: 14px;
