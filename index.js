@@ -9,6 +9,7 @@ const textArray = [
   "exciting",
   "art",
   "LIFE",
+  "EVERYTHING I WANT",
 ];
 const typingDelay = 200;
 const erasingDelay = 100;
