@@ -6,6 +6,48 @@ body {
   background: black;
 }
 
+.header-2 {
+  background: url(https://64.media.tumblr.com/1061954fcd7cb725dae4b956662e45f2/tumblr_inline_mqgbzfONSi1qz4rgp.gif);
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+}
+
+.header-2 p {
+  font-size: 50px;
+  padding: 0.5rem;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  overflow: hidden;
+  color: white;
+}
+.header-2 p span.typed-text {
+  font-weight: normal;
+  color: pink;
+}
+.header-2 p span.cursor {
+  display: inline-block;
+  margin-left: 0.1rem;
+  width: 3px;
+  animation: blink 1s infinite;
+}
+.header-2 p span.cursor.typing {
+  animation: none;
+}
+.change-color {
+  filter: grayscale(100%);
+}
+p {
+  text-align: center;
+  font-size: 38px;
+  font-family: "Poppins", sans-serif;
+  font-family: "Lora", serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Playfair Display", serif;
+}
 h1 {
   font-family: "Poppins", sans-serif;
   font-family: "Lora", serif;
@@ -19,6 +61,16 @@ h2 {
   font-family: "Playfair Display", serif;
 }
 h3 {
+  font-family: "Poppins", sans-serif;
+  font-family: "Lora", serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Playfair Display", serif;
+}
+
+h4 {
+  color: white;
+  text-align: center;
+  font-size: 30px;
   font-family: "Poppins", sans-serif;
   font-family: "Lora", serif;
   font-family: "Montserrat", sans-serif;
@@ -72,13 +124,6 @@ section h2 {
   font-family: "Playfair Display", serif;
 }
 
-section p {
-  color: black;
-  font-family: "Poppins", sans-serif;
-  font-family: "Lora", serif;
-  font-family: "Montserrat", sans-serif;
-  font-family: "Playfair Display", serif;
-}
 footer {
   text-align: center;
   color: white;
@@ -88,6 +133,19 @@ footer {
   font-family: "Playfair Display", serif;
 }
 
+img {
+  max-width: 100%;
+  border: 5px aliceblue;
+  border-radius: 15px;
+  box-shadow: 0 0 10px 5px aliceblue;
+  display: block;
+}
+
+.img-fluid {
+  width: 100%;
+  border-radius: 10px;
+  height: auto;
+}
 .btn-light {
   background-color: pink;
   padding: 20px;
@@ -112,14 +170,6 @@ header {
   padding: 200px 0;
 }
 
-.img-responsive {
-  max-width: 26%;
-  border-radius: 10px;
-  margin-top: 10px;
-  margin-right: 20px;
-  margin-bottom: 30px;
-  margin-left: 40px;
-}
 .link {
   color: white;
   text-decoration: none;
@@ -127,38 +177,12 @@ header {
 .link:hover {
   color: pink;
 }
-.grid-2-columns {
-  grid-template-columns: 1fr 1fr 1fr;
-}
-.grid-3-columns-with-first-narrow {
-  grid-template-columns: 1fr 1fr 1fr;
-}
-.grid-3-columns {
-  grid-template-columns: 2fr 2fr 2fr;
-}
-.card {
-  background: white;
-  margin: 30px 0;
-}
-.card-body {
-  padding: 30px;
-}
-.card p {
-  font-family: "Poppins", sans-serif;
-  font-family: "Lora", serif;
-  font-family: "Montserrat", sans-serif;
-  font-family: "Playfair Display", serif;
-  font-size: 15px;
-  text-align: center;
-}
+
 section.secondary {
-  background-image: linear-gradient(200deg, lightyellow, black);
+  background-image: linear-gradient(180deg, #93a5cf, #e4efe9);
   text-align: center;
 }
 
-ul {
-  list-style-type: none;
-}
 header a {
   font-weight: 700;
   font-size: 14px;
