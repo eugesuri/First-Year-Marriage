@@ -40,9 +40,23 @@ body {
 .change-color {
   filter: grayscale(100%);
 }
+.cotainer-about-images {
+  display: block;
+  text-align: center;
+  display: flex;
+}
+.trip-images {
+  margin-left: 200px;
+  margin-inline-end: 30px;
+  padding: 5px;
+  border-radius: 60px;
+  margin-bottom: 30px;
+  margin-right: 50px;
+  margin-top: 50px;
+}
 p {
   text-align: center;
-  font-size: 38px;
+  font-size: 30px;
   font-family: "Poppins", sans-serif;
   font-family: "Lora", serif;
   font-family: "Montserrat", sans-serif;
